@@ -16,6 +16,7 @@
 		82CF4B7C24EDA1AD004F2D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CF4B7A24EDA1AD004F2D9D /* LaunchScreen.storyboard */; };
 		82CF4B8724EDA1AD004F2D9D /* WebVideoExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CF4B8624EDA1AD004F2D9D /* WebVideoExampleTests.swift */; };
 		82CF4B9224EDA1AD004F2D9D /* WebVideoExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CF4B9124EDA1AD004F2D9D /* WebVideoExampleUITests.swift */; };
+		82CF4BA124EDA349004F2D9D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CF4BA024EDA349004F2D9D /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		82CF4B8D24EDA1AD004F2D9D /* WebVideoExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebVideoExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CF4B9124EDA1AD004F2D9D /* WebVideoExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVideoExampleUITests.swift; sourceTree = "<group>"; };
 		82CF4B9324EDA1AD004F2D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CF4BA024EDA349004F2D9D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82CF4BA124EDA349004F2D9D /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				82CF4B8524EDA1AD004F2D9D /* WebVideoExampleTests */,
 				82CF4B9024EDA1AD004F2D9D /* WebVideoExampleUITests */,
 				82CF4B6A24EDA1A9004F2D9D /* Products */,
+				82CF4B9F24EDA349004F2D9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +133,14 @@
 				82CF4B9324EDA1AD004F2D9D /* Info.plist */,
 			);
 			path = WebVideoExampleUITests;
+			sourceTree = "<group>";
+		};
+		82CF4B9F24EDA349004F2D9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82CF4BA024EDA349004F2D9D /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
